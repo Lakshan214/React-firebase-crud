@@ -1,0 +1,66 @@
+/* view.css */
+
+.view-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .view-card {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .view-card-header {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .view-card-header h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .view-card-body {
+    padding: 20px;
+  }
+  
+  .view-details {
+    margin-bottom: 20px;
+  }
+  
+  .view-detail-item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .view-detail-label {
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  .view-detail-value {
+    flex-grow: 1;
+  }
+  
+  .view-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn-edit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-edit:hover {
+    background-color: #0056b3;
+  }
+  

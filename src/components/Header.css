@@ -1,0 +1,36 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    color: rgb(41, 24, 116);
+  }
+  
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right a {
+    color:rgb(41, 24, 116);;
+    text-decoration: none;
+    margin-right: 4px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    /* background-color: transparent; */
+    border: none;
+  }
+  
+  .header-right a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .header-right a.active {
+    background-color: #0a0868;
+    color: #fff;
+  }
+  

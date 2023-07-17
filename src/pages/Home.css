@@ -1,0 +1,74 @@
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .action-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 4px;
+    margin-right: 4px;
+    color: #e00f0f;
+    font-size: 26px; /* Adjust the font size for the button */
+  }
+  .action-button-edit{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 4px;
+    margin-right: 4px;
+    color: #08a81e;
+    font-size: 26px;
+  }
+  .small-action-button {
+    font-size: 12px; /* Adjust the font size for the small button */
+  }
+  
+  .big-action-button {
+    font-size: 24px; /* Adjust the font size for the big button */
+  }
+  
+  .action-button:hover {
+    color: #333;
+  }
+  .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+  
